@@ -1,0 +1,288 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  /* font-family: 'Ubuntu', sans-serif; */
+}
+
+
+ /* h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat", sans-serif; */
+
+
+ 
+.big-title{
+  font-family: "Montserrat-black", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.secondary-title{
+  font-family: "Montserrat-bold", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.third-title{
+  font-family: "Montserrat-black", sans-serif;
+  font-size: 1.5rem;
+} 
+
+/* Navigation */
+
+/* .navbar{
+    position: fixed;
+} */
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  /* font-weight: bold; */
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-light", sans-serif;
+  font-size: 1.2rem;
+}
+
+/* Download buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.title-image {
+  width: 75%;
+  max-width: 550px;
+  right: 5%;
+}
+
+/* Features */
+
+#features {
+  text-align: center;
+  padding: 15% 0px;
+  background: #fff;
+  
+}
+
+#features h3{
+  color: #2d2d2d;
+  font-size: 2rem;
+  width: 50%;
+  margin: auto;
+}
+
+#features p{
+  color: #2d2d2d;
+  width: 50%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+
+
+.icons {
+  font-size: 4rem;
+  padding-bottom: 20px;
+  color: #f82948;
+}
+
+.icons:hover {
+  color: #ff798d;
+}
+
+.features-col {
+  padding: 5% 0;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ff798d;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ff798d;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px;
+}
+
+.tarogram-text {
+  font-size: 4rem;
+  color: #f82948;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  /* Use to adjust size of icons */
+  width: 3rem;
+}
+
+/* Pricing */
+
+
+#pricing {
+  padding: 5%;
+  text-align: center;
+}
+
+#pricing h3{
+  color:#2d2d2d;
+}
+
+.card-header {
+  padding-top: 20px;
+}
+
+.btn-3 {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+/* Call to action */
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+
+
+.third-title{
+  font-size: 2.5rem;
+  width: 50%;
+  margin: auto;
+  color: #fff;
+}
+
+/* footer */
+
+#footer {
+  text-align: center;
+  background-color: #fff;
+  color: #cecece;
+  font-size: 1rem;
+  padding: 2%;
+}
+
+#footer .fa-twitter {
+  margin: 5%;
+  font-size: 3.5rem;
+  color: #1da1f2;
+}
+#footer .fa-facebook {
+  margin: 5%;
+  font-size: 3.5rem;
+  color: #4267b2;
+}
+#footer .fa-youtube {
+  margin: 5%;
+  font-size: 3.5rem;
+  color: #ff0000;
+}
+#footer .fa-solid {
+  margin: 5%;
+  font-size: 3.5rem;
+  color: #ffc403;
+}
+
+@media (min-width: 1800px) {
+
+  .big-title{
+    font-family: "Montserrat-black", sans-serif;
+    font-size: 4.5rem;
+    line-height: 1.5;
+  }
+
+}
+
+@media (max-width: 1175px) {
+ 
+  .big-title{
+    font-family: "Montserrat-black", sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 988px) {
+  
+  .big-title{
+    font-family: "Montserrat-black", sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
+  .title-image {
+    width: 60%;
+    max-width: 350px;
+    right: 5%;
+  }
+  .container-fluid {
+    padding: 3% 5%;
+  }
+  .title-middle {
+    text-align: center;
+  }
+
+  .secondary-title{
+    font-family: "Montserrat-bold", sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+
+  .tarogram-text {
+    font-size: 2.3rem;
+    color: #f82948;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .testimonial-img {
+    width: 40%;
+    max-width: 150px;
+  }
+
+  .testimonial-name {
+    display: block;
+  }
+
+ 
+  .third-title{
+    font-size: 2rem;
+    width: 60%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
